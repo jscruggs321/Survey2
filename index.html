@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<title>JabariScruggs-JavaScript</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+  <body>
+    <div class="header">
+      <header class="container">
+        <h1 id="title">JabariScruggs x JavaScript</h1>
+    <p id="description" class="description text-center">Welcome to my very first JavaScript Survey page. It only gets better from here! Please fill this out and let me know what you think.
+    </p>
+    <p id="required-fields">* = Required Fields</p>
+    <form id="survey-form">
+      <div class="form-group">
+        <label id="name-label" for="name">Name*
+        </label>
+      <input id="name" type="text" name="name" placeholder="Enter Your Name" required="name"></input>
+    </div>
+    <div class="form-group">
+        <label id="email-label" for="email">Email*
+        </label>
+      <input id="email" type="email" email="email" placeholder="Enter Your Email" required="email"></input>
+
+      <div class="form-group">
+        <label id="number-label" for="number">Number (Optional)
+        </label>
+        <input id="number" type="tel" required
+      pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="XXX-XXX-XXXX"></input></div>
+        
+<div class="form-group">
+  <p id="one">What Brings You Here Today?</p>
+        <select id="dropdown" name="reason" class="form-control" required></input>
+        <option disabled selected value>Select reason</option>
+        <option value="Search Engine">Search Engine</option>
+        <option value="Social Media">Social Media (LinkedIn, Facebook, Twitter, etc.)</option>
+        <option value="email">Email</option>       
+        <option value="friend">Friend/Reference</option>
+        <option value="other">Other</option>
+</select>
+<p id="two">If "Other" was selected, please explain below:</p>
+     <textarea id="comments" class="input-textarea" name="comment" placeholder="Please explain here..."></textarea>
+          </div>
+   <div class="form-group">       
+   <p id="three">Are you satisfied with the quality of this page?</p>
+   <label><input name="user-quality" value="most-definitely" type="radio" class="input-radio" checked>Most Definitely</label>
+    <div class="form-group">       
+   <label><input name="user-quality" value="somewhat" type="radio" class="input-radio">Somewhat</label>
+    <div class="form-group">       
+      <label><input name="user-quality" value="not-at-all" type="radio" class="input-radio">Not at All</label>
+   </div>  
+   <div class="form-group">
+     <p id="four">What do you enjoy about Front-End Development? (Check all that apply)</p>
+     <label><input name="favorite" value="programming" type="checkbox" class="input-checkbox">Coding/Programming</label>
+     <div>
+     <label><input name="favorite" value="designing" type="checkbox" class="input-checkbox">Designing</label>
+     </div>
+   </div>
+   <div>
+   <label><input name="favorite" value="debugging" type="checkbox" class="input-checkbox">Debugging</label></div>
+   <div><label><input name="favorite" value="analyzing" type="checkbox" class="input-checkbox">Analyzing</label></div>
+   <div><label><input name="favorite" value="troubleshooting" type="checkbox" class="input-checkbox">Troubleshooting</label></div>
+   <div><label><input name="favorite" value="seo" type="checkbox" class="input-checkbox">SEO</label></div>
+   <div><label><input name="favorite" value="other" type="checkbox" class="input-checkbox">Other</label></div>
+   <div class="form-group">
+     <p id="five">If "Other" was selected, please explain below:</p>
+     <textarea id="comments" class="input-textarea" name="comment" placeholder="Please explain here..."></textarea>
+     <div class="form-group">
+       <button type="submit" id="submit" class="submit-button"> Submit </button>
+       </div>
+   </div>
+    </div> 
+    </div>
+    </div>
+  </form>
+  </body>
+</html>  

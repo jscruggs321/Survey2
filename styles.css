@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    background-color: #4b2b82;
+    color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 16px;
+    height: 75%;
+  
+  
+  
+  
+  
+    background-image: linear-gradient( 115deg, rgba(75, 3, 56, 0.8), rgba(150, 131, 207, 0.815) ) ,url(https://images.pexels.com/photos/3183165/pexels-photo-3183165.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  h1, p {
+    margin: 1em auto;
+    text-align: center;
+    max-width: 500px;
+  }
+  
+  form {
+    background: hsla(319, 77%, 24%, 0.744);
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    padding-left: 45px;
+  }
+  
+  #one, #two, #three, #four, #five {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    text-align: left;
+  }
+  
+  #one {
+   padding-top: 30px;
+   padding-bottom: 0px;
+  }
+  
+  #three, #four {
+    padding-top:30px;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+  }
+  
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  
+  label {
+    display: block;
+    margin: 0.2rem 0;
+    padding-top: 15px;
+    align-items: center;
+  }
+  
+  #name, #email, #number, #required
+  
+  input,
+  textarea,
+  select {
+    margin: 5px 0 0 0;
+    width: 90%;
+    min-height: 2em;
+  }
+  
+  input, textarea {
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+  }
+  
+  #dropdown {
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: #ffffff; 
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  .submit-button {
+    display: block;
+    margin-top: 0.85em;
+    height: 2em;
+    width: 90%;
+    font-size: 1.1rem;
+    padding: 0.75 rem;
+    background-color: green;
+    cursor: pointer;
+  }
+  
